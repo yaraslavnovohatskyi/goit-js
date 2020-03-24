@@ -1,13 +1,13 @@
 "use strict";
 
 let country;
-country = prompt("Введите страну!").toLowerCase);
+country = prompt("Введите страну!").toLowerCase();
 
 let countryPay;
-switch () {
+switch (country) {
 case "китай":
         countryPay = 180;
-alert()
+alert(`Доставка в ${country} будет стоить ${countryPay} кредитов`)
 break;
     
 case "чили":
@@ -31,5 +31,5 @@ alert(`Доставка в ${country} будет стоить ${countryPay} кр
 break;
 
 default:
-alert(`Доставка в ${country} будет стоить ${countryPay} кредитов`);
+alert(`В вашей стране доставка не доступна`);
 }
