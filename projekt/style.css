@@ -1,0 +1,125 @@
+.body {
+    width:300px;
+
+}
+
+.button_class {
+    height: 61px;
+    width: 305px;
+    color: floralwhite;
+    margin-bottom: 50px;
+    background: darkviolet;
+  border: 0;
+  border-radius: 5px;
+  font-size: 21px;
+text-align: left;
+
+}
+
+.text {
+    margin-left: 51px;
+font-size: 20px;
+color: darkslateblue;
+}
+
+.arms {
+    background-image: url(https://v1.iconsearch.ru/uploads/icons/finalflags/24x24/ukraine-flag.png);
+    background-repeat: no-repeat;
+    background-position: 5%;
+    margin-bottom:250px;
+    margin-left: 49px;
+    width: 226px;
+    height: 21px;
+}
+.button_class1 {
+    
+    height: 33px;
+    width: 186px;
+    margin-left: 70px;
+    color: darkslateblue;
+    font-size: 19px;
+    
+}
+
+@media (width:768px) {
+    .body {
+      width: 708px;
+    }
+
+    .button_class {
+        height: 90px;
+        width: 708px;
+        color: floralwhite;
+        background: darkviolet;
+      border: 0;
+      border-radius: 5px;
+      font-size: 30px;
+    text-align: left;
+    
+    }
+    
+    .text {
+        margin-left: 250px;
+    font-size: 30px;
+    color: darkslateblue;
+    }
+    
+    .arms {
+        background-image: url(https://v1.iconsearch.ru/uploads/icons/finalflags/24x24/ukraine-flag.png);
+        background-repeat: no-repeat;
+        background-position: 5%;
+        margin-bottom:190px;
+        margin-left: 190px;
+        width: 380px;
+        height: 40px;
+    }
+    .button_class1 {
+        
+        height: 50px;
+        width: 260px;
+        margin-left: 250px;
+        color: darkslateblue;
+        font-size: 30px;
+        
+    }
+
+    @media (width:1200px) {
+        .container {
+          width: 1145px;
+          margin: 0 auto;
+        }
+
+        .button_class {
+            
+            color:darkslateblue;
+            background: aliceblue;
+          border: 0;
+          border-radius: 5px;
+          font-size: 40px;
+        text-align: left;
+        
+        }
+        
+        .text {
+            margin-left: 800px;
+        font-size: 30px;
+        color: darkslateblue;
+        }
+        
+        .arms {
+            background-image: url(https://v1.iconsearch.ru/uploads/icons/finalflags/24x24/ukraine-flag.png);
+            background-repeat: no-repeat;
+            background-position: 5%;
+            margin-bottom:155px;
+            margin-left: 650px;
+            width: 670px;
+            height: 60px;
+        }
+        .button_class1 {
+            
+            height: 70px;
+            width: 360px;
+            margin-left: 800px;
+            color: darkslateblue;
+            font-size: 40px;
+        }
